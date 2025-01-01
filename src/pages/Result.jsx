@@ -1,7 +1,12 @@
+import { assets } from "../assets/assets"
 
 const Result = () => {
   return (
-    <div>Result</div>
+    <div>
+      <div>
+        <img src={assets.sample_img_1} alt="" className="w-full rounded" />
+      </div>
+    </div>
   )
 }
 
